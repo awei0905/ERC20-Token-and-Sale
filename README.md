@@ -1,6 +1,6 @@
 # Compilation
 
-    npm i @openzeppelin/contracts@4.4.1
+    npm i @openzeppelin/contracts@4.5.0
     truffle compile
 
 ---
