@@ -59,7 +59,7 @@ class App extends Component {
   }
 
   handleBuyTokens = async () => {
-    await this.tokenSaleInstance.methods.buyTokens(this.accounts[0]).send({from: this.accounts[0],value: this.web3.utils.toWei("1","wei")});
+    await this.tokenSaleInstance.methods.buyTokens(this.accounts[0]).send({from: this.accounts[0],value: this.web3.utils.toWei("8787878787","wei")});
   }
 
   handleInputChange = (event) => {
